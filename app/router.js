@@ -9,7 +9,9 @@ Router.map(function() {
   this.resource('friends', function() {
 
   });
-  this.route('friends', function() {});
+  this.route('friends', function() {
+    this.route('new');
+  });
 });
 
 export default Router;
